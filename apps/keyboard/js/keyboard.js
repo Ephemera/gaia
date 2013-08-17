@@ -217,6 +217,7 @@ const keyboardGroups = {
   'pinyin': ['zh-Hans-Pinyin'],
   'arabic': ['ar'],
   'greek': ['el'],
+  'korean': ['ko'],
   'japanese': ['jp-kanji']
 };
 

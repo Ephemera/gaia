@@ -1167,6 +1167,40 @@ const Keyboards = {
       ]
     }
   },
+  'ko': {
+    label: 'Korean',
+    menuLabel: 'Korean',
+    //needsCandidatePanel: true,
+    imEngine: 'korean',
+    alt: {
+      'q': 'ㅃ',
+      'w': 'ㅉ',
+      'e': 'ㄸ',
+      'r': 'ㄲ',
+      't': 'ㅆ'
+    },
+    keys: [
+      [
+        { value: 'ㅂ' }, { value: 'ㅈ' }, { value: 'ㄷ' }, { value: 'ㄱ' },
+        { value: 'ㅅ' }, { value: 'ㅛ' }, { value: 'ㅕ' }, { value: 'ㅑ' },
+        { value: 'ㅐ' }, { value: 'ㅔ' }
+      ], [
+        { value: 'ㅁ' }, { value: 'ㄴ' }, { value: 'ㅇ' }, { value: 'ㄹ' },
+        { value: 'ㅎ' }, { value: 'ㅗ' }, { value: 'ㅓ' }, { value: 'ㅏ' },
+        { value: 'ㅣ' }, 
+        { value: ':', visible: ['url']}, { value: '_', visible: ['email']}
+      ], [
+        { value: '⇪', ratio: 1.5, keyCode: KeyEvent.DOM_VK_CAPS_LOCK },
+        { value: 'ㅋ' }, { value: 'ㅌ' }, { value: 'ㅊ' }, { value: 'ㅍ' },
+        { value: 'ㅠ' }, { value: 'ㅜ' }, { value: 'ㅡ' },
+        { value: '⌫', ratio: 1.5, keyCode: KeyEvent.DOM_VK_BACK_SPACE }
+      ], [
+        { value: '&nbsp', ratio: 8, keyCode: KeyboardEvent.DOM_VK_SPACE },
+        { value: '↵', ratio: 2, keyCode: KeyEvent.DOM_VK_RETURN }
+      ]
+    ]
+  },
+
   'jp-kanji': {
     label: 'Japanese - Kanji',
     menuLabel: 'Japanese - Kanji',
